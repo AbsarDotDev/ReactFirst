@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { propTypes } from 'react-bootstrap/esm/Image'
 
 export default function Navbar(props) {
   return (
@@ -33,10 +32,9 @@ export default function Navbar(props) {
   )
 }
 Navbar.propTypes={
-    title: PropTypes.string.isRequired,
-    link1:PropTypes.string.isRequired
+  title: PropTypes.string,
+link1:PropTypes.string
 }
 Navbar.defaultProps={
-    title: "Absar",
-    link1:"HOme"
+  title:"Ahmed",
 }

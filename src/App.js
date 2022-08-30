@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
 function App() {
   return (
-  <Navbar title="MATIC" link1="Home"/>
+    <>
+    <Navbar link1="Home"/>
+    <TextForm/>
+    </>
   );
 }
 
